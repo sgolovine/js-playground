@@ -1,0 +1,33 @@
+{
+  "compileOnSave": true,
+  "ts-node": {
+    "compilerOptions": {
+      "module": "NodeNext",
+      "baseUrl": "."
+    },
+    "files": true,
+    "include": ["playground.ts"],
+    "exclude": ["node_modules"]
+  },
+  "compilerOptions": {
+    "allowJs": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": false,
+    "noEmit": true,
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": false,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "DOM", "ES5", "ES6"],
+    "baseUrl": ".",
+  },
+  "include": ["playground.ts"],
+  "exclude": ["node_modules"]
+}
